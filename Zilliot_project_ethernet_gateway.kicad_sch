@@ -1,0 +1,367 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1659cd95-e251-4442-b395-01683d357d21")
+	(paper "A4")
+	(title_block
+		(title "Main Sheet-Team 6")
+		(date "03-07-2024")
+	)
+	(lib_symbols)
+	(junction
+		(at 123.19 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad4c725f-7d19-4ffd-adf6-bc22979fedcb")
+	)
+	(wire
+		(pts
+			(xy 170.18 73.66) (xy 123.19 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a748adf-bec5-4c45-9ca3-f3fd45207937")
+	)
+	(wire
+		(pts
+			(xy 115.57 66.04) (xy 170.18 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d23ec19-4d84-4ed8-82fe-30cbfd4bc25e")
+	)
+	(wire
+		(pts
+			(xy 123.19 76.2) (xy 115.57 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497edf82-18c3-452b-9c80-3a21c9f15945")
+	)
+	(wire
+		(pts
+			(xy 115.57 68.58) (xy 170.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e73705-1c49-4e12-b51b-678d19e1fe71")
+	)
+	(wire
+		(pts
+			(xy 123.19 73.66) (xy 123.19 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99569eb0-7026-482c-be1a-26126a72d127")
+	)
+	(wire
+		(pts
+			(xy 115.57 49.53) (xy 170.18 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac05be5d-3d12-4a89-a066-f50eaa3aec9a")
+	)
+	(wire
+		(pts
+			(xy 115.57 57.15) (xy 170.18 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a5c167-a099-48ab-b1a4-a7f7c0f3526b")
+	)
+	(wire
+		(pts
+			(xy 152.4 107.95) (xy 123.19 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca98386-593a-4305-b61c-a909aa6cd26d")
+	)
+	(wire
+		(pts
+			(xy 123.19 76.2) (xy 123.19 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d64102-300c-4530-94d5-87baae5b194f")
+	)
+	(wire
+		(pts
+			(xy 115.57 59.69) (xy 170.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f120a7bd-50d6-44cb-ac7e-e31ded7c8dc4")
+	)
+	(sheet
+		(at 62.23 34.29)
+		(size 53.34 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "175cff41-f35f-463b-a8eb-a72add0a9578")
+		(property "Sheetname" "Controller 2"
+			(at 62.23 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ble_Module_team6.kicad_sch"
+			(at 62.23 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Controller2_3V3" input
+			(at 115.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2d94415c-aa1a-4c44-905e-d0c63fd17887")
+		)
+		(pin "MCU_BLE_TX" bidirectional
+			(at 115.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b6efd0b4-52b7-4c82-890b-30ed294b5a4c")
+		)
+		(pin "MCU_BLE_CTS" bidirectional
+			(at 115.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eb69a1f7-0072-4fa5-a0d9-c82e4109366d")
+		)
+		(pin "MCU_BLE_RX" bidirectional
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "de33f736-8fb2-4b0d-8bd5-fe553d824512")
+		)
+		(pin "MCU_BLE_RTS" bidirectional
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8f1818bc-c262-4231-a8d9-9267d6ec31c9")
+		)
+		(pin "MCU_BLE_RESET" bidirectional
+			(at 115.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7fa769e0-7ad9-4401-a5d5-65aef4bd2f15")
+		)
+		(instances
+			(project "final"
+				(path "/1659cd95-e251-4442-b395-01683d357d21"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 44.45)
+		(size 48.26 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dae7b8cc-f5cb-4efb-9a21-b0c6ddd51b01")
+		(property "Sheetname" "Controller 1"
+			(at 170.18 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCUblock_team6.kicad_sch"
+			(at 170.18 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BLE_RESET" bidirectional
+			(at 170.18 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "558d65df-c15b-4ec3-9cfd-8c5b87d4c3ea")
+		)
+		(pin "BLE_RX" bidirectional
+			(at 170.18 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f0aa8df4-bdfa-48dc-9503-d064b0851d77")
+		)
+		(pin "BLE_TX" bidirectional
+			(at 170.18 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "72f5704d-eae3-40d3-bae5-dd0450cd4b1a")
+		)
+		(pin "BLE_RTS" bidirectional
+			(at 170.18 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "439401b0-8692-42a5-8c78-7bdd1f6f135b")
+		)
+		(pin "BLE_CTS" bidirectional
+			(at 170.18 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be89d352-0da4-479c-a7ab-aaec457ad8b1")
+		)
+		(pin "V_out_3.3v" output
+			(at 170.18 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aeb65788-ede0-4f45-9a59-d1c44ca6d9d2")
+		)
+		(instances
+			(project "final"
+				(path "/1659cd95-e251-4442-b395-01683d357d21"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 101.6)
+		(size 44.45 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff8056ca-9260-499d-9dfa-c006d2c31eef")
+		(property "Sheetname" "Power Supply Block"
+			(at 152.4 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Powersupplyblockteam6.kicad_sch"
+			(at 152.4 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_out_3.3v" output
+			(at 152.4 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "52bd1f0d-0fec-4002-8f32-e302bbe4a2ce")
+		)
+		(instances
+			(project "final"
+				(path "/1659cd95-e251-4442-b395-01683d357d21"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
